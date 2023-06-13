@@ -1,3 +1,7 @@
+This is a homework project from CS50's Introduction to Artificial Intelligence, including pre existing specifications and guidelines as shown on the website https://cs50.harvard.edu/ai/2020/projects/5/traffic/.
+
+In this project, I used TensorFlow to build a neural network to classify road signs based on an image of those signs in order to recognize and distinguish road signs – stop signs, speed limit signs, yield signs, and more. For this project, I used the German Traffic Sign Recognition Benchmark (GTSRB) dataset, which contains thousands of images of 43 different kinds of road signs. 
+
 The goal for my traffic model is to reach good accuracy rate with a low loss rate. I started with only 1 convolution and pooling process and a hidden layer with a few nodes. The model only got 64% accuracy rate and 66% loss rate. Over the next multiple runs, where I changed the parameters, I have summarized a few key points:
 
     The change that worked well:
